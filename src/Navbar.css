@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: start;
+  margin: 1em 2em 2em 2em;
+  padding: 0 1em 1em 1em;
+  border-bottom: 1px solid #995b5b;
+  color: #222222;
+  font-family: cursive;
+}
+.nav-header {
+  font-size: 1.5em;
+}
