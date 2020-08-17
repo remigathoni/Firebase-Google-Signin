@@ -4,8 +4,10 @@ import "./App.css"
 import Navbar from "./Navbar"
 import Login from "./Login";
 import Dashboard from "./Dashboard";
+import UserProvider from "./providers/UserProvider";
 function App() {
   return (
+    <UserProvider>
     <Router>
     <Navbar/>
     <div className="App">
@@ -19,6 +21,7 @@ function App() {
         </Switch>
     </div>
     </Router>
+    </UserProvider>
   );
 }
 
