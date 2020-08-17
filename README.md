@@ -1,5 +1,5 @@
 # Google Sign: React + Firebase
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Set up google authentication using firebase and use the Context API to access the user's authentication status so as to prevent unauthorised access to protected routes
 
 ## Available Scripts
 
